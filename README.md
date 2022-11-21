@@ -23,7 +23,7 @@ You can check in the demos, that things like tab competition, signal passing, an
 | DEMO                         |
 |------------------------------|
 | Regular shell                |
-| ![bash](./docs/bash.gif)     |
+| ![bash](./docs/t-rec.gif)      |
 | Python                       | 
 | ![python](./docs/python.gif) |
 
