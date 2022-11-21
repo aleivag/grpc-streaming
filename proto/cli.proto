@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// https://www.velotio.com/engineering-blog/grpc-implementation-using-python
+// https://grpc.io/docs/languages/python/quickstart/
+// https://grpc.github.io/grpc/python/grpc_reflection.html
+// https://developers.google.com/protocol-buffers/docs/proto3#any
+// https://grpc.io/docs/languages/python/basics/#response-streaming-rpc-1
+
+package cli;
+
+message Line {
+  string buffer = 1;
+}
+
+
+service cli{
+  rpc call(stream Line) returns (stream Line) {}
+}
