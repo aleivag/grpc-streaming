@@ -15,6 +15,18 @@ request and response.
 
 making the client terminal look and feel like a remote terminal. 
 
+Demo
+====
+
+You can check in the demos, that things like tab competition, signal passing, and full workflow flows back and forward
+
+| DEMO                         |
+|------------------------------|
+| Regular shell                |
+| ![bash](./docs/bash.gif)     |
+| Python                       | 
+| ![python](./docs/python.gif) |
+
 
 Usage
 =====
