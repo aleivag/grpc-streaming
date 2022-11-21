@@ -20,7 +20,6 @@ class StdinPipe(Thread):
         self.buffer = buffer
         self.pipe = pipe
         super().__init__()
-        self.start()
 
     def run(self):
         for line in self.buffer:
