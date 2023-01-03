@@ -48,3 +48,14 @@ then the client
 ```
 [~] ./.venv/bin/python client.py
 ```
+
+Now we can also support golang
+==============================
+
+After runing the python server (dont wanna do the go server now), run
+
+```bash
+# remeber to be in this repo path
+[~] ./bootstrap-go.sh # sets protobuf for golang
+[~] go run client.go # run a bash ... sory zsh
+```

@@ -7,6 +7,7 @@ syntax = "proto3";
 // https://grpc.io/docs/languages/python/basics/#response-streaming-rpc-1
 
 package cli;
+option go_package = "github.com/aleivag/grpc-streaming/proto";
 
 message Line {
   string buffer = 1;
